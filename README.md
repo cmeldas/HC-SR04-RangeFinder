@@ -33,7 +33,7 @@ Sonar pinouts fits in to arduino mini pro. There is in alongside gnd,pin 2, pin 
 ## Arduino <-> arducopter
 Gnd - Gnd
 
-Vcc - Vcc
+Vcc - Vcc   (5V) 
 
 Rx - Tx
 
