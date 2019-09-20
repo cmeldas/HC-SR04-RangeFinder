@@ -106,10 +106,9 @@ void loop()
         val = median(srtValues, ARRAY_SIZE);      // find the median value and use it
         break;
       default:
-        break;
-        lastT = nowT;
+        break;    
     }
-
+    lastT = nowT;
 
     if (Serial.available() > 0) {
       // read the incoming byte:
