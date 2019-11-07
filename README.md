@@ -1,5 +1,5 @@
 # HC-SR04-RangeFinder
-This program read distance from ultrasonic sensor HC-SR04 and send it to arducopter (PX4, APM) on serial. 
+This program read distance from ultrasonic sensor HC-SR04 and send it to arducopter (Pixhawk, APM) on serial. 
 ## Program description
 Pixhawk distance read rate is 20Hz. If pixhawk send something on serial, arduino repty distance in format "12.34\r\n" in meters.
 From HC-SR04 you can read distance every 30ms (about 33Hz). Arduino read the distance and do some math. You can set MODE, MEDIAN, SPIKE, NORM filter. 
